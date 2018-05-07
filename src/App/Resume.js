@@ -51,13 +51,15 @@ class Resume extends Component{
             <ul>
                 <li><strong>Programming Languages:</strong> Java, Golang, Python, C++, Javascript</li>
                 <li><strong>Front-End Technologies​:</strong> CSS, HTML, JQuery, ReactJs</li>
-                <li><strong>Database Query Languages</strong> MongoDB (NoSql), Postgres, MySql, SQLite</li>
-                <li><strong>Deployment Environments</strong> Heroku, Amazon Kinesis</li>
-                <li><strong>Other Technologies</strong> NodeJs, Android, Docker, Redis, Linux, TDD</li>
+                <li><strong>Database Query Languages:</strong> MongoDB (NoSql), Postgres, MySql, SQLite</li>
+                <li><strong>Deployment Environments:</strong> Heroku, Amazon Kinesis</li>
+                <li><strong>Other Technologies:</strong> NodeJs, Android, Docker, Redis, Linux, TDD</li>
             </ul>
 
             <hr class="my-4"></hr>
             <h2>Experience</h2>
+            <h4>Iamplus Electronics India pvt Ltd, Bangalore <small class="text-muted"> - Software Engineer</small></h4>
+            <h5>Sep 2015 - Present <small class="text-muted">(2 Years 8 months)</small></h5>
 
 
             <hr class="my-4"></hr>
@@ -79,12 +81,10 @@ class Resume extends Component{
                 <li>Good team player</li>
             </ul>
 
-            <p>Date: 07-May-2017</p>
+            <p>Date: 07-May-2017 IST</p>
             <a class="btn btn-primary btn-lg" href="#" role="button">Download .pdf</a>
 
         </div>
-
-
 
       </div>
     )
