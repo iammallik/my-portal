@@ -11,23 +11,26 @@ class App extends Component {
       return (
          <Router>
             <div>
-               <h2>Welcome to React!</h2>
+            <h2>Welcome to React!</h2>
                <ul>
                   <li><Link to={'/'}>Home</Link></li>
                   <li><Link to={'/Articles'}>Articles</Link></li>
                   <li><Link to={'/Resume'}>Resume</Link></li>
                </ul>
-               <hr />
+               <hr/>
 
                <Switch>
-                  <Route exact path='/' component={AppLogo} />
                   <Route exact path='/Articles' component={Articles}/>
                   <Route exact path='/Resume' component={Resume}/>
+                  <Route path='/' exact={true} component={AppLogo} />
                </Switch>
             </div>
          </Router>
       );
    }
 }
+
+//<li><Link to={'/'}>Home</Link></li>
+//<Route path='/' exact={true} component={AppLogo} />
 
 export default App;

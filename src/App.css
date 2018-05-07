@@ -1,3 +1,5 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css');
+
 .App {
   text-align: center;
 }
@@ -25,4 +27,11 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.jumbotron{
+    padding: 2%;
+    background-color:transparent !important;
+    /*color: #FFFFFF;*/
+    background-color:#F7F3F2 !important;
 }
